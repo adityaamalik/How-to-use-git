@@ -1,0 +1,16 @@
+To work on someone else's repository and make changes in it, we use the process of Forking and making Pull Requests. These are very helpful features when you are working in a large organisation and you want to make some changes in the original source code, you make a copy of the source code in your account and then make a PULL REQUEST to get the feature or changes merged in the original repository. Following is the process : 
+
+Forking : 
+
+1. Open the repository on GitHub that you want to fork.
+
+2. Click on the fork button of the repository. It takes some time to copy all the content. Once it is done, you can now view the same repository in your own account.
+
+Now you can make changes however you like. You can create branches of your own and then make changes in them. Finally when you are done committing your changes in your own account you can now make a pull request : 
+
+Pull Request :
+1. On your repository page , click on "create new pull request" button.
+
+2. Fill the comment if necessary to tell what changes have been made in the repository.
+
+3. There can be merge conflicts during this process which we will see in a different tutorial. But assuming there are no merge conflicts, we now wait for our PR (Pull Request) to be merged to the original repository.
