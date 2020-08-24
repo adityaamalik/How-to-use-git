@@ -1,0 +1,12 @@
+Steps to setup Git local repository in our local machine
+
+1. In the "working repository" type - "git init"
+2. Type "git add ." to add all the files to the repository
+3. (Optional) check the status of staged files by typing "git status"
+4. (Optional) to remove everything from the staging area , type - "git rm --cached -r ."
+5.  To commit the staged changes we type "git commit -m "<some message>" "
+6. If you made some changes and messed up some files since the last commit, we use "git      checkout" to go back to the last commit.
+
+-------------
+
+These are all the useful commands to setup a local repository on your machine and maintain the versions of your project using git.

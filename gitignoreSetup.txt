@@ -1,0 +1,15 @@
+If you are using git on your project to maintain the versions of your project, then you might want some files to be hidden or not committed to the version control. Git ignore is a way of resisting some files not to be committed. For example, your API keys and some local configuration files which are unnecessary for other people.
+
+Following are the steps to use git ignore feature : 
+
+1. Initialise a repository
+
+2. Make a ".gitignore" file (spelling should be exact and there should be no file extensions).
+
+3. Write the exact name of the files in each separate lines.
+
+4. You can use "#" symbol for a comment line.
+
+5. You can use "*" sign to select all the files with particular extension. Example : "*.txt" will ignore all the files with .txt extension.
+
+6. Save the file and try add/commit the files of the repository, you will see that all the files mentioned in .gitignore file are not staged.
