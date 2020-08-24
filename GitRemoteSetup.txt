@@ -17,3 +17,5 @@ Following are the steps to setup remote git repository.
 7. Finally type - "git push -u origin master". This is gonna take some time to upload all the files. Local repository will be pushed to the remote repository and you can keep them in sync. 
 
 8. You will be prompted to enter your username and password of GitHub. If it shows an error due to authentication failure, then you might have changed your password of Github. Repeat the previous step by typing the command again.
+
+9. In future if you update anything on your local repository and want to update that in your remote repository , type "git push -u origin master" again to push the changes to remote repo.
