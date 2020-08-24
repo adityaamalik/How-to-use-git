@@ -1,0 +1,29 @@
+To experiment on your main project, you use the branching and merging feature of git and GitHub.
+
+To create a new branch :
+
+1. Make sure you are in the right project directory
+
+2. Type "git branch <branch-name>" to create a new branch. Ex: git branch temp
+
+3. To check all the existing branches of the repository. Type - "git branch" and it will display all the branches, with an asterisk sign on the current branch.
+
+4. To switch to the other branch we use the command - "git checkout <branch-name>".
+
+5. You can now make changes in this branch. After making changes, use "git add ." and "git commit -m "<commit-message>" " commands to commit the changes in the new branch.
+
+To merge the new branch with master branch :
+
+1. Your current branch should master (or any other you want new branch to be merged into).
+
+2. Type : "git merge <branch-name>"
+
+3. This opens vim editor to let you write a merge message if you wish. After writing the merge message or leaving it empty. Click escape key and type ":q!" To save and quit.
+
+4. New branch is now merged into the master branch. Check by "git log"
+
+To push the changes to remote repository : 
+
+1. Type : "git push -u origin master"
+
+2. All the changes are now pushed to remote repository on GitHub.
