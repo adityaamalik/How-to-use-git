@@ -1,0 +1,9 @@
+To clone a project on your local machine, you use the feature git clone. Following are the steps : 
+
+1. Open the repository on GitHub which you wish to clone.
+
+2. On the top right corner of the repository page, there is a button for cloning/download. Click on that and copy the highlighted link of the repository.
+
+3. Link will be something like - "https://github.com/mirandaconrado/product-iterator.git"
+
+4. Type "git clone https://github.com/mirandaconrado/product-iterator.git" in the terminal and make sure you are in the right directory where you want the folder to be created.
